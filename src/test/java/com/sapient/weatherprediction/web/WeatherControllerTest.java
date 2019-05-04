@@ -2,7 +2,6 @@ package com.sapient.weatherprediction.web;
 
 import com.sapient.weatherprediction.services.Forecast;
 import com.sapient.weatherprediction.services.WeatherEntry;
-import com.sapient.weatherprediction.services.WeatherForecast;
 import com.sapient.weatherprediction.services.WeatherService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -15,11 +14,9 @@ import org.springframework.test.web.servlet.MockMvc;
 import java.time.Instant;
 import java.util.Arrays;
 
-import static org.hamcrest.CoreMatchers.is;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.verify;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class)

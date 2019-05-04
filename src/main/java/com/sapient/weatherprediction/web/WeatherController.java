@@ -1,7 +1,6 @@
 package com.sapient.weatherprediction.web;
 
 import com.sapient.weatherprediction.services.Forecast;
-import com.sapient.weatherprediction.services.WeatherForecast;
 import com.sapient.weatherprediction.services.WeatherService;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
